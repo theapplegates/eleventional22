@@ -1,0 +1,26 @@
+<header role="banner">
+    <div id="header--container">
+        <div id="header--left">
+            <div id="header--title">
+                <a href="/" title="{{ site.name }} - {{ site.description }}">
+                    {{ site.name | lower }}
+                </a>
+            </div>
+        </div>
+        <div id="header--right">{% include "partials/nav.njk" %}</div><div id="search"></div>
+    </div>
+    <link rel="stylesheet" 
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@algolia/algoliasearch-netlify-frontend@1/dist/algoliasearchNetlify.css" />
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@algolia/algoliasearch-netlify-frontend@1/dist/algoliasearchNetlify.js"></script>
+    <script type="text/javascript">
+      algoliasearchNetlify({
+        appId: 'UWGPEO0JO4',
+        apiKey: '001aec720996acb97cabea779d9115fd',
+        siteId: '0a9db726-1f17-4ff7-b083-ad5528997f8a',
+        branch: 'main',
+        selector: 'div#search',
+      });
+    </script>
+</header>  
+     
