@@ -14,6 +14,6 @@ The rest of this post will only appear on the post's page.
 
 ![An image of blurred lights!](https://images.unsplash.com/photo-1638452933982-8fa05063259a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80)
 
-![Grandma](./src/assets/images/Grandma.jpg)
+![Grandma](/src/assets/images/Grandma.jpg)
 
 A final paragraph.
